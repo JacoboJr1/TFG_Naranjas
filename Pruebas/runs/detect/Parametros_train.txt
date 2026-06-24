@@ -1,0 +1,310 @@
+Train 1 y Val 1:
+
+ model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        momentum=0.937,
+        weight_decay=0.001,
+        device=0,
+        workers=8,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+    return model
+
+   
+Train 2 y Val 2:
+
+ model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=1000,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        momentum=0.937,
+        weight_decay=0.001,
+        device=0,
+        workers=8,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+    return model
+
+Train 3 y Val 3:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        momentum=0.937,
+        weight_decay=0.001,
+        device=0,
+        workers=8,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+    return model
+
+(800 otra vez porque 1000 petaba la RAM, más de 32 GB de RAM)
+
+Train 4 y Val 4:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        momentum=0.937,
+        weight_decay=0.001,
+        device=0,
+        workers=8,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+    return model
+
+Train 5 y Val 5:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=1000,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        momentum=0.937,
+        weight_decay=0.001,
+        device=0,
+        workers=8,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+    return model
+
+Train 6 y Val 6:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        momentum=0.937,
+        weight_decay=0.001,
+        device=0,
+        workers=8,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+    return model
+
+Train 7 y Val 7:
+
+	model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0005, 
+        device=0,
+        patience=50,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+    )
+
+Train 8 y Val 8:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=24,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0001, 
+        device=0,
+        patience=70,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+        augment=True,
+    )
+
+    return model
+
+Train 9 y Val 9:
+
+	model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=24,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0001, 
+        device=0,
+        patience=70,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+        augment=True,
+    )
+
+    return model
+
+Train 10 y Val 10:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=800,
+        optimizer='Adam',
+        batch=24,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0001, 
+        device=0,
+        patience=70,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+        augment=True,
+    )
+
+    return model
+
+(Misma config con otro tamaño de imágenes)
+
+Train 11 y Val 11:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=850,
+        optimizer='Adam',
+        batch=32,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0001, 
+        device=0,
+        patience=70,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+        augment=True,
+    )
+
+    return model
+
+Train 12:
+
+    model.train(
+        data=yaml_path,
+        epochs=300,
+        imgsz=600,
+        optimizer='Adam',
+        batch=16,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0001, 
+        device=0,
+        patience=70,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+        augment=True,
+    )
+
+    return model
+
+Train 14 y Val 14:
+
+    model.train(
+        data=yaml_path,
+        epochs=100,
+        imgsz=300,
+        optimizer='Adam',
+        batch=16,
+        lr0=0.0005,
+        lrf=0.01,
+        weight_decay=0.0001, 
+        device=0,
+        patience=70,
+        cos_lr=True,
+        amp=True,
+        val=True,
+        cache=True,
+        verbose=True,
+        augment=True,
+    )
+
+    return model
+
+CNN PARA EL KERAS:
+
+IMG_SIZE = 128
+BATCH_SIZE = 32
+EPOCHS = 100
+PATIENCE = 70
+DATASET_DIR = 'crops_malas_para_clasificar'  # Subcarpetas por clase
+MODEL_NAME = 'modelo_cnn.h5'
+CARPETA_PREDICCION = 'C:/Users/IVIA/Downloads/Pruebas/predicciones/predict_malas'  # Carpeta con imágenes a clasificar

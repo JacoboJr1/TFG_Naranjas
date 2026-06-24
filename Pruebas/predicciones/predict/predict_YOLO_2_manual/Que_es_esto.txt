@@ -1,0 +1,1 @@
+Para hacer el predict manual de las imágenes en este caso del segundo YOLO donde directamente detecta las enfermedades

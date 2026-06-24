@@ -1,0 +1,1 @@
+Esto es cuando ejecutas el código de entrenamiento, directamente hace el predict de los resultados también pero automáticamente ya que está programado explícitamente así en el código
