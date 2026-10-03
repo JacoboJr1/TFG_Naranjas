@@ -1,6 +1,6 @@
 # 🍊 TFG_Naranjas
 
-> **Estudio y aplicación de visión artificial y modelos de lenguaje para detectar, clasificar y orientar el tratamiento de patologías en naranjas.**
+> **Estudio y aplicación de YOLO, redes convolucionales (CNN) y modelos de lenguaje (LLM) para la detección, clasificación y tratamiento de naranjas**
 
 Este repositorio recoge el código, los conjuntos de datos, las pruebas y los resultados del Trabajo Fin de Grado de **Jacobo San Martín Sáez**, realizado en el Grado en Ingeniería Telemática. El proyecto explora cómo combinar modelos de visión por computador con un modelo de lenguaje para analizar imágenes de cítricos y ofrecer una recomendación asociada al diagnóstico.
 
@@ -10,8 +10,8 @@ A partir de una imagen, el sistema busca localizar naranjas, identificar si pres
 
 | Metodología | Flujo de análisis | Enfoque |
 | --- | --- | --- |
-| **1. YOLO + Keras** | YOLOv11 detecta naranjas sanas o dañadas → se recortan las detecciones dañadas → Keras clasifica la enfermedad | Pipeline por etapas |
-| **2. YOLO multiclase** | Un modelo YOLOv11 detecta y clasifica directamente la naranja como sana o con una de siete categorías de defectos | Detección en una etapa |
+| **1. PRIMERA METODOLOGÍA: YOLOv11 + Keras** | YOLOv11 detecta naranjas sanas o dañadas → se recortan las detecciones dañadas → Keras clasifica la enfermedad | Pipeline por etapas |
+| **2. SEGUNDA METODOLOGÍA: YOLOv11** | Un modelo YOLOv11 detecta y clasifica directamente la naranja como sana o con una de siete categorías de defectos | Detección en una etapa |
 
 En ambos flujos, la clase detectada puede enviarse a **Gemini** junto con la imagen y un prompt especializado para generar una recomendación de tratamiento. Esta integración se plantea como apoyo experimental; la memoria también señala que la llamada directa a un LLM tiene limitaciones para ofrecer asesoramiento agronómico especializado.
 
@@ -87,4 +87,4 @@ La memoria completa, con el marco teórico, diseño, implementación, pruebas y 
 
 ## IMPORTANTE
 
-NO SE PRESENTA LA API KEY POR RAZONES DE SEGURIDAD.
+NO SE PRESENTA LA API KEY, NI EL ARCHIVO .env POR RAZONES DE PRIVACIDAD Y SEGURIDAD.
