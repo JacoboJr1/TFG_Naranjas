@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Buen estado', 'Mal estado']
+
+roboflow:
+  workspace: jacobosanmartin
+  project: tfg_naranjas
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jacobosanmartin/tfg_naranjas/dataset/9

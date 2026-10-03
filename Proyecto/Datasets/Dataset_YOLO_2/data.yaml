@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Canker', 'Greening', 'Machas negras', 'Moho verde', 'Otros defectos', 'Sana', 'Scab', 'Trips']
+
+roboflow:
+  workspace: jacobosanmartin
+  project: tfg_naranjas_2
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jacobosanmartin/tfg_naranjas_2/dataset/4
